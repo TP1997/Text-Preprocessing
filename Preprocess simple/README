@@ -1,0 +1,12 @@
+This directory contafor most simple text preprocessing code. It can be used with classical topic models, such as LDA.
+The functionalities include:
+    - Remove non-ascii characters/words                     (1)
+    - Remove non-english texts                              (1)
+    - Lemmatize words                                       (1)
+    - Remove non-alphabetic characters/words                (1)
+    - Remove stopwords                                      (1)
+    - Remove words shorter than n1 characters               (1)
+    - Remove words having document frequency less than n2   (2)
+    - Remove words having total frequency less than n3      (2)
+    - Remove documents shorter than n3                      (2)
+    - Transform words into word indices                     (2)
