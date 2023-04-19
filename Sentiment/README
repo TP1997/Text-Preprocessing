@@ -1,0 +1,6 @@
+This directory contains preprocessing code that tracks the sentiment information of each word.
+Eespecially, it computes the probability that a certain word describes some opinion, which is implemented in 
+MaxEnt_Auto_Lableling.py file. Rest of the code is similar to what's in parent dictionary, but it is slightly
+modified to keep track of metainformation required for sentiment extraction task. Code is not production ready
+in any sense, it rather consist the core functionalities that I myself can just copy & paste as a part of more organized
+codebases. 

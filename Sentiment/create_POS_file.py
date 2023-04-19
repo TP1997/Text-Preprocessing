@@ -58,9 +58,6 @@ for df in np.array_split(df_orig, 10):
 df_POS.to_csv(path+'train_POS.csv', index=False)
 
 #%%
-
-#%%
-
 df_POS = pd.read_csv(path+'train_POS.csv')
 df_POS['POS_tag']=df_POS['POS_tag'].apply(eval)
 
@@ -78,7 +75,7 @@ for df in np.array_split(df_orig, 10):
     pool = Pool(processes)
     #df_split = pool.map(remove_nonalpha_chars, df_split)
     
-#%%
+#%% Testing the speed of Stanford POS-tagger vs default nltk POS-tagger
 import time
 import nltk
 t1 = 'What is the airspeed of an unladen swallow?'
